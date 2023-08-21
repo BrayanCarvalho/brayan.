@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simulador de Negociação</title>
+</head>
+
+<body>
+    <h1>Simulador de Negociação</h1>
+    <form action="/" method="post">
+        <label for="valor_total">Valor Total Negociado:</label>
+        <input type="text" id="valor_total" name="valor_total" required><br>
+        <label for="parcelas">Número de Parcelas (máximo 4):</label>
+        <input type="number" id="parcelas" name="parcelas" min="1" max="4" required><br>
+        <label for="dia_vencimento">Dia de Vencimento das Parcelas:</label>
+        <input type="number" id="dia_vencimento" name="dia_vencimento" min="1" max="31" required><br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+
+</html>
